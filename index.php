@@ -46,6 +46,10 @@
 						<td>Gender</td>
 						<td><?php echo $_SESSION['gender'] ?></td>
 					</tr>
+					<tr>
+						<td><h3></h3></td>
+						<td><h3><a href="logout.php">Logout</a></h3></td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
