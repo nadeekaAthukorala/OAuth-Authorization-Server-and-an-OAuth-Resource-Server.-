@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login With Google</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container" style="margin-top: 100px">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-offset-3" align="center">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTzhlN4ES_RNdd_wj3qVf2Alk-cboM2cDGOPRoaS7Q6tLRWQvkfQ"><br><br>
+
+                <form >
+                    <input placeholder="Enter your e-mail address" name="email" class="form-control"><br>
+                    <input type="password" placeholder="Enter your password" name="password" class="form-control"><br>
+                    <input type="submit" value="Log In With E-mail" class="btn btn-primary">
+                    <input type="button"  value="Log In With Google" class="btn btn-danger">
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
