@@ -1,4 +1,8 @@
+<?php
+    require_once "config.php";
 
+	$loginURL = $gClient->createAuthUrl();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,7 +24,7 @@
                     <input placeholder="Enter your e-mail address" name="email" class="form-control"><br>
                     <input type="password" placeholder="Enter your password" name="password" class="form-control"><br>
                     <input type="submit" value="Log In With E-mail" class="btn btn-primary">
-                    <input type="button"  value="Log In With Google" class="btn btn-danger">
+                    <input type="button" onclick="window.location = '<?php echo $loginURL ?>';" value="Log In With Google" class="btn btn-danger">
                 </form>
 
             </div>
